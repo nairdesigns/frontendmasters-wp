@@ -17,8 +17,8 @@ function jsforwp_enqueue_scripts() {
       'jsforwp-jquery-theme-js',
       get_stylesheet_directory_uri() . '/assets/js/jquery.theme.js',
       [
-        'dependency-handle-1',
-        'dependency-handle-2'
+        'jquery',
+        '	jquery-form'
       ],
       time(),
       true
