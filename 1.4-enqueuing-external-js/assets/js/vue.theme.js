@@ -1,6 +1,6 @@
 new Vue({
-  el: '#vue-footer',
+  el: "#vue-footer",
   data: {
-    footerMsg: 'Vue Footer Loaded!'
-  }
+    footerMsg: "Vue Footer Loaded!",
+  },
 });
